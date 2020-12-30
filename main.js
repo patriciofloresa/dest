@@ -1921,10 +1921,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class PolizaService {
+    // readonly URI = 'http://25.1.200.237:3000'|| 'http://localhost:3000';
     constructor(http) {
         this.http = http;
-        // readonly URI = 'http://localhost:3000';
-        this.URI = 'http://25.1.200.237:3000' || false;
+        this.URI = 'http://localhost:3000';
         this.selectPoliza = new src_app_models_poliza__WEBPACK_IMPORTED_MODULE_1__["Poliza"]();
     }
     createPoliza(poliza, photo) {
