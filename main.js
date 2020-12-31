@@ -1924,7 +1924,7 @@ class PolizaService {
     // readonly URI = 'http://25.1.200.237:3000'|| 'http://localhost:3000';
     constructor(http) {
         this.http = http;
-        this.URI = 'http://localhost:3000';
+        this.URI = 'http://localhost:27017';
         this.selectPoliza = new src_app_models_poliza__WEBPACK_IMPORTED_MODULE_1__["Poliza"]();
     }
     createPoliza(poliza, photo) {
